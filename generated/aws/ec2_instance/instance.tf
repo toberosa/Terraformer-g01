@@ -31,7 +31,7 @@ resource "aws_instance" "tfer--i-02f15bc709354c668_webterraformer" {
   get_password_data                    = "false"
   hibernation                          = "false"
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = "t2.micro"
+  instance_type                        = "t3.micro"
   ipv6_address_count                   = "0"
 
   maintenance_options {
