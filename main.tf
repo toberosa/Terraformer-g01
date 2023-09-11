@@ -1,9 +1,9 @@
 terraform {
   cloud {
-    organization = "Enterprise-01"
-
+    hostname = "tfe.sandpedia.com"
+    organization = "ckid-demo"
     workspaces {
-      name = "Terraformer-w01"
+      name = "metaverse-01"
     }
   }
 }
